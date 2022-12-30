@@ -1,6 +1,6 @@
 import PyPDF2, sys, os
 
-merger = PyPDF2.PdfFleMerger()
+merger = PyPDF2.PdfFileMerger()
 
 if len(sys.argv) < 2:
     sys.exit("usage: python pdf_merger.py [NEW_FILE] [MERGED_FILES]")
